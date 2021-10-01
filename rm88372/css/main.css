@@ -1,0 +1,22 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #e64141;
+}
+
+.container {
+  background-color: #141414;
+}
+
+body {
+  font-family: "Trebuchet MS","Lucida Sans", Arial, sans-serif;
+  background-color: #ad9d9d;
+}
+/*# sourceMappingURL=main.css.map */
