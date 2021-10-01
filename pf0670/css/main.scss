@@ -1,0 +1,11 @@
+@import "header";
+@import "container";
+
+@mixin text-effect($color) {
+    color: $color;
+}
+
+body {
+    font-family: "Trebuchet MS", "Lucida Sans", Arial, sans-serif;
+    background-color: #c1c1c1c1;
+}
