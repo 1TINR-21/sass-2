@@ -1,9 +1,14 @@
-@import "header";
-@import "container";
-
 @mixin text-effect($color) {
     color: $color;
 }
+
+@mixin gerencia-estilo($color) {
+    color: $color;
+    font-size: 1.2em;
+}
+
+@import "header";
+@import "container";
 
 body {
     font-family: "Trebuchet MS", "Lucida Sans", Arial, sans-serif;
