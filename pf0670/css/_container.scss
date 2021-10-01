@@ -1,0 +1,7 @@
+#container {
+    @include gerencia-estilo(#ff0110);
+    background-color: #141414;
+    margin: 0 auto;
+    width: 100%;
+    height: 800px;
+}
