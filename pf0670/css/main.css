@@ -6,10 +6,10 @@ header {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   background-color: #e64141;
 }
 
@@ -25,5 +25,21 @@ header {
 body {
   font-family: "Trebuchet MS", "Lucida Sans", Arial, sans-serif;
   background-color: #c1c1c1c1;
+}
+
+body .blue-text {
+  color: blue;
+}
+
+body .green-text {
+  color: green;
+}
+
+body .red-text {
+  color: red;
+}
+
+body .yellow-text {
+  color: yellow;
 }
 /*# sourceMappingURL=main.css.map */
