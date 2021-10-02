@@ -1,6 +1,8 @@
 header{
+    @include make-bold (true);
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #e64141;
+    text-align: center;
+    background-color: rgb(198, 216, 95);
 }

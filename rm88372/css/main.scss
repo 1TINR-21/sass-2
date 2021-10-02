@@ -1,12 +1,18 @@
 
-@import "header";
-@import "container";
+@import url(_header.scss);
+@import url(_container.scss);
 
-@mixin text-effect($color){
-    color:;
+
+
+@mixin make-bold($bool){
+    @if $bool==true{
+        text-transform:uppercase ;
+    }@else{
+        
+    }
 }
 
 body{
     font-family: "Trebuchet MS","Lucida Sans", Arial, sans-serif;
-    background-color: #ad9d9d;
+    background-color: #a05151;
 }
