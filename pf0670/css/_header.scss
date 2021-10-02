@@ -1,5 +1,7 @@
 header {
-    @include text-effect(#ffff00);
+    @include text-effect(sds);
+    @include make-bold(false);
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;

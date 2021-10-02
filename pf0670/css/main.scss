@@ -1,5 +1,20 @@
-@mixin text-effect($color) {
-    color: $color;
+@mixin text-effect($val) {
+    @if $val == danger {
+        color: #ff0000;
+    } @else if $val == warning {
+        color: #fff000;
+    } @else {
+        color: #000000;
+    }
+}
+
+@mixin make-bold($bool) {
+    @if $bool == true {
+        font-weight: bolder;
+        text-transform: uppercase;
+    } @else {
+        font-weight: 100;
+    }
 }
 
 @mixin gerencia-estilo($color) {
