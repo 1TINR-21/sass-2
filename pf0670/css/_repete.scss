@@ -1,0 +1,14 @@
+// $colors: (
+//     color1: blue,
+//     color2: green,
+//     color3: red,
+//     color4: yellow,
+// );
+
+$colors: (blue, green, red, yellow);
+
+@each $color in $colors {
+    .#{$color}-text {
+        color: $color;
+    }
+}
